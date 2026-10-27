@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0">
+
+    <!-- Home Page -->
+    <url>
+        <loc>https://manishantiinfracity.com/</loc>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://manishantiinfracity.com/index.html</loc>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- About Us Page -->
+    <url>
+        <loc>https://manishantiinfracity.com/about.html</loc>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <!-- Projects Page -->
+    <url>
+        <loc>https://manishantiinfracity.com/projects.html</loc>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+
+    <!-- Gallery Page -->
+    <url>
+        <loc>https://manishantiinfracity.com/gallery.html</loc>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+
+    <!-- Contact Page -->
+    <url>
+        <loc>https://manishantiinfracity.com/contact.html</loc>
+        <lastmod>2026-10-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+</urlset>
