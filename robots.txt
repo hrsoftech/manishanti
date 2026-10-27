@@ -1,0 +1,22 @@
+# Allow all standard Search Engine Crawlers
+User-agent: *
+Allow: /
+
+# Allow AI & Generative Search Engines (GEO Optimization)
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Sitemap Location
+Sitemap: https://manishantiinfracity.com/sitemap.xml
