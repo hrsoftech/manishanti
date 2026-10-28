@@ -1,0 +1,96 @@
+/* Mani Shanti Infracity - premium layer (loads AFTER css/style.css; original CSS untouched) */
+:root{--navy:#0b1a2e;--navy2:#15304f;--gold:#c8a45c;--gold2:#e6cd8f;--ivory:#faf7f1;--ink:#1d2733;--muted:#5d6b7a}
+html{scroll-behavior:smooth}
+::selection{background:var(--gold);color:var(--navy)}
+body{color:var(--ink);font-family:'Poppins',sans-serif;-webkit-font-smoothing:antialiased}
+.wrapper{background:var(--ivory)}
+h1,h2{font-family:'Cormorant Garamond',Georgia,serif;letter-spacing:.2px}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+
+/* Top bar */
+.top-bar{background:#fff!important;border-bottom:1px solid rgba(11,26,46,.08)}
+.top-bar-icon,.top-bar-icon i{color:var(--gold)!important}
+.top-bar-text h3{color:var(--navy)!important;font-weight:600;font-family:'Poppins',sans-serif}
+.top-bar-text p,.top-bar-text a{color:var(--muted)!important;text-decoration:none}
+.logo img{max-height:62px;width:auto}
+.logo h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:700;color:var(--navy);font-size:1.9rem;margin:0}
+
+/* Navigation */
+.nav-bar{background:transparent!important}
+.nav-bar .navbar{background:var(--navy)!important;border-bottom:2px solid var(--gold)}
+.navbar .nav-link{color:#e9edf3!important;font-weight:500;letter-spacing:.4px;transition:color .2s}
+.navbar .nav-link:hover,.navbar .nav-link.active{color:var(--gold)!important;background:transparent!important}
+.navbar-brand{color:var(--gold)!important}
+
+/* Buttons */
+.btn{background:linear-gradient(135deg,var(--gold2),var(--gold))!important;color:var(--navy)!important;border:0!important;border-radius:3px!important;font-weight:600;letter-spacing:.5px;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(200,164,92,.38)}
+
+/* Hero */
+.carousel-item img{object-fit:cover;min-height:420px}
+.carousel-item::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,26,46,.84),rgba(11,26,46,.22) 72%)}
+.carousel-caption{z-index:5}
+.carousel-caption h1,.carousel-caption h2{font-family:'Cormorant Garamond',Georgia,serif;font-weight:700;color:#fff;font-size:clamp(2.2rem,6vw,4.6rem);line-height:1.05;text-shadow:0 2px 20px rgba(0,0,0,.35);margin-bottom:1.5rem}
+.carousel-caption p{color:var(--gold2);font-weight:500;letter-spacing:2px}
+
+/* Section headings */
+.section-header p{color:var(--gold)!important;font-weight:600;letter-spacing:1px}
+.section-header h2{color:var(--navy)!important;font-size:clamp(1.9rem,4vw,3rem);font-weight:700}
+.section-header h2::after{content:"";display:block;width:56px;height:3px;background:var(--gold);margin:14px auto 0}
+.section-header.text-left h2::after{margin-left:0}
+
+/* Feature + about */
+.feature-item{background:#fff;border-radius:6px;box-shadow:0 14px 40px rgba(11,26,46,.10)}
+.feature-icon i,.feature-icon{color:var(--gold)!important}
+.feature-text h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:700;color:var(--navy);font-size:1.5rem}
+.about-img{padding:0 16px 16px 0}
+.about-img img{border-radius:6px;box-shadow:16px 16px 0 rgba(200,164,92,.55)}
+.about-text p{color:var(--muted);line-height:1.85}
+
+/* Counters */
+.fact{background:linear-gradient(135deg,var(--navy),var(--navy2))!important}
+.fact-left,.fact-right{background:transparent!important}
+.fact-icon i{color:var(--gold)!important}
+.fact-text h2{font-family:'Cormorant Garamond',Georgia,serif;color:var(--gold)!important;font-weight:700;font-size:3.2rem}
+.fact-text p{color:#dfe6ee!important}
+
+/* Project / gallery cards */
+.blog-item,.service-item{background:#fff;border-radius:6px;overflow:hidden;box-shadow:0 14px 40px rgba(11,26,46,.10);transition:transform .35s,box-shadow .35s}
+.blog-item:hover,.service-item:hover{transform:translateY(-6px);box-shadow:0 22px 50px rgba(11,26,46,.18)}
+.blog-img,.service-img{overflow:hidden}
+.blog-img img,.service-img img{transition:transform .6s}
+.blog-item:hover .blog-img img,.service-item:hover .service-img img{transform:scale(1.06)}
+.blog-title h3,.service-text h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:700;color:var(--navy)}
+
+/* Testimonials */
+.slider-item h3{font-family:'Cormorant Garamond',Georgia,serif;color:var(--navy);font-weight:700;font-size:1.7rem}
+.slider-item p{font-style:italic;color:var(--muted);line-height:1.8}
+
+/* Inner page header */
+.page-header{background:linear-gradient(135deg,var(--navy),var(--navy2))!important;padding:70px 0!important;border-bottom:3px solid var(--gold)}
+.page-header h1{font-family:'Cormorant Garamond',Georgia,serif;color:#fff;font-size:clamp(2rem,5vw,3.4rem);font-weight:700;margin:0 0 8px}
+.page-header a{color:var(--gold2)!important}
+
+/* Contact */
+.contact-form{background:#fff;padding:32px;border-radius:6px;box-shadow:0 14px 40px rgba(11,26,46,.10)}
+.contact-text a{color:inherit;text-decoration:none}
+.form-control:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(200,164,92,.25)}
+
+/* Footer */
+.footer{background:var(--navy)!important;color:#c5cfdb}
+.footer h2{color:var(--gold)!important;font-family:'Cormorant Garamond',Georgia,serif;font-size:1.7rem;font-weight:700}
+.footer p,.footer a{color:#c5cfdb}
+.footer a:hover{color:var(--gold2)!important}
+.footer-contact a{color:inherit;text-decoration:none}
+.footer .copyright{border-top:1px solid rgba(255,255,255,.12)}
+
+/* Floating call + WhatsApp */
+.float-cta{position:fixed;left:18px;bottom:18px;z-index:1050;display:flex;flex-direction:column;gap:12px}
+.float-btn{position:relative;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff!important;font-size:26px;text-decoration:none!important;box-shadow:0 8px 22px rgba(0,0,0,.28);transition:transform .2s}
+.float-btn:hover{transform:scale(1.08)}
+.float-wa{background:#25d366}
+.float-call{background:var(--navy);border:2px solid var(--gold);font-size:22px}
+.float-wa::before{content:"";position:absolute;inset:0;border-radius:50%;background:#25d366;opacity:.5;z-index:-1;animation:fpulse 2.2s infinite}
+@keyframes fpulse{to{transform:scale(1.7);opacity:0}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.float-wa::before{animation:none}.btn,.blog-item,.service-item,.blog-img img,.service-img img{transition:none}}
+@media (max-width:575px){.float-btn{width:50px;height:50px;font-size:23px}.float-cta{left:12px;bottom:12px}.contact-form{padding:22px}}
